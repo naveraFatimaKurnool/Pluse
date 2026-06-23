@@ -10,7 +10,7 @@ import Support from './pages/Support'
 export default function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Pluse">
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Dashboard />} />
